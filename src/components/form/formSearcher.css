@@ -1,0 +1,29 @@
+.formSearcher__div{
+    height: 60px;
+    width: 80vw;
+    
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.formSearcher__div input{
+    height: 100%;
+    width: 80%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.formSearcher__div button{
+    height: 100%;
+    width: 20%;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background: hsl(0, 0%, 17%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}

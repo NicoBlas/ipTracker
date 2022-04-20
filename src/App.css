@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.leaflet-container{
+  width: 100vw;
+  height: 65vh;
+}
+
+.leaflet-marker-icon{
+  width: 40px;
+  height: 40px;
+}

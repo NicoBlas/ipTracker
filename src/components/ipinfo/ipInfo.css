@@ -1,0 +1,31 @@
+.ipInfo{
+    width: 80vw;
+    height: 35vh;
+    background-color: white;
+    z-index: 1000;
+    position: absolute;
+    border-radius: 15px;
+    top:23vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#pTitle{
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: var(--font-family-p);
+    letter-spacing: 2px;
+}
+
+#pDescription{
+    font-size: 22px;
+    color: hsl(0, 0%, 17%);
+    font-weight: bold;
+    font-family: var(--font-family-p);
+}

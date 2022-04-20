@@ -1,0 +1,10 @@
+.header{
+    height: 35vh;
+    background-image: url("../../assets/pattern-bg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 2rem;
+    align-items: center;
+    gap:2rem
+}
