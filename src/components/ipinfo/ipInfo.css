@@ -37,7 +37,8 @@
     .ipInfo{
         display: flex;
         flex-direction: row;
-        
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 }
 
