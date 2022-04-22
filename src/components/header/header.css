@@ -1,6 +1,8 @@
 .header{
     height: 35vh;
     background-image: url("../../assets/pattern-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -8,3 +10,8 @@
     align-items: center;
     gap:2rem
 }
+
+.header h1{
+    font-family: var(--font-family-p);
+}
+

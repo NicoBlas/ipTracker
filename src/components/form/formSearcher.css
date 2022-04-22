@@ -1,7 +1,7 @@
 .formSearcher__div{
     height: 60px;
     width: 80vw;
-    
+    max-width: 700px;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
@@ -14,6 +14,13 @@
     width: 80%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    outline: none;
+    border: none;
+    padding-left: 2rem;
+    font-family: var(--font-family-p);
+    font-size: 18px;
+    color:hsl(0, 0%, 17%);
+    cursor:pointer;
 }
 
 .formSearcher__div button{
@@ -25,5 +32,12 @@
     background: hsl(0, 0%, 17%);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    cursor:pointer;
     
 }
+
+.formSearcher__div button:hover{
+    background:black
+}
+
+

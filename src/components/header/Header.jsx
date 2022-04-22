@@ -3,12 +3,12 @@ import "./header.css"
 import FormSearcher from '../form/FormSearcher'
 import IPInfo from '../ipinfo/IPInfo'
 
-const Header = ({IpAddress,location,timeZone,ISP}) => {
+const Header = ({IpAddress,location,timeZone,ISP,ipDirection, setIpDirection}) => {
   return (
     <div className='header'>
       <h1>IP Adress Tracker</h1>
-      <FormSearcher />
-      <IPInfo IpAddress={IpAddress} location= {location} timeZone={timeZone} ISP={ISP} />
+      <FormSearcher ipDirection={ipDirection} setIpDirection={setIpDirection}/>
+      <IPInfo IpAddress={ipDirection} location= {location} timeZone={timeZone} ISP={ISP} />
     </div>
   )
 }
