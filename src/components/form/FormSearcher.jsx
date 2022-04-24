@@ -12,13 +12,13 @@ const FormSearcher = ({ipDirection, setIpDirection}) => {
 
   const sendData = (event) =>{
     setIpDirection(value)
-    console.log("hola" + ipDirection)
+    
   }
 
   return (
 
     <div className='formSearcher__div'>
-      <input type="text" name='idform' onChange={handleInputChange} />
+      <input type="text" name='idform' onChange={handleInputChange} placeholder="Search for any IP adress or domain" />
       <button type='submit' onClick={sendData}><img src={iconArrow} alt="iconArrow" /></button>
     </div>
         
